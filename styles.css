@@ -1,0 +1,124 @@
+@font-face {
+  font-family: "mars";
+  src: url('./asset/font/Mars Bold.otf') format('truetype');
+}
+
+@font-face {
+  font-family: "kollektif";
+  src: url('./asset/font/Kollektif.ttf') format('truetype');
+}
+
+*, html, body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.banner {
+  position: absolute;
+  height: 100vh;
+  object-fit: cover;
+  object-position: center;
+  filter: brightness(.80);
+  z-index: -1;
+}
+
+.container {
+  position: relative;
+  display: grid;
+  height: 100vh;
+  margin-left: auto;
+  margin-right: auto;
+  padding-right: 5px;
+  padding-left: 5px;
+}
+
+.container .wrapper {
+  display: grid;
+  /*background-color: #6d00ff;*/
+  align-content: center;
+  height: 95vh;
+}
+
+.container .text {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.container h1 {
+  font-family: "mars";
+  font-size: 2.25rem; /* 36px */
+  line-height: 2.5rem; /* 40px */
+  color: #9ee6e2;
+  padding-bottom: 15px;
+}
+
+.container p {
+  color: #ffffff;
+  font-family: "kollektif";
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+.container .btnBox {
+  text-align: center;
+  margin-top: 28px;
+  z-index: 3;
+  margin-top: 30px;
+}
+
+.container .btn {
+  background-color: #f99dee;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-right: 30%;
+  padding-left: 30%; 
+  margin-right: 5px;
+  border-radius: 9999px;
+  display: inline-block;
+  border: none;
+  font-family: "kollektif";
+  font-size: 1rem;
+  color: #ffffff;
+  line-height: 1.5rem;
+  text-decoration: none;
+  cursor: none;
+  user-select: none;
+}
+
+.container .btnBox p {
+  font-display: "kollektif";
+  margin-top: 20px;
+  color: #9fdeee;
+  color: #9fdeee;
+  font-size: 1rem;
+  line-height: 1.5rem; 
+}
+
+footer {
+  display: grid;
+  z-index: 1;
+  height: 30px;
+}
+
+footer .footer-wrapper {
+  display: grid;
+  align-content: flex-end;
+}
+
+footer .footer-wrapper p {
+  text-align: center;
+  font-family: "kollektif";
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  color: #ffffff;
+  
+}
+
+footer p a {
+  text-decoration: none;
+  color: #f99dee;
+  cursor: none;
+}
