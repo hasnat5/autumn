@@ -44,6 +44,7 @@
 .container .text {
   text-align: center;
   margin-top: 30px;
+  max-width: 24rem;
 }
 
 .container h1 {
@@ -122,11 +123,4 @@ footer p a {
   text-decoration: none;
   color: #f99dee;
   cursor: none;
-}
-
-
-@media (min-width: 768px) {
-  .container .wrapper {
-    width: 100%;
-  }
 }
