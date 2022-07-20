@@ -27,6 +27,7 @@
 .container {
   position: relative;
   display: grid;
+  max-width: 24rem;
   height: 100vh;
   margin-left: auto;
   margin-right: auto;
@@ -36,6 +37,7 @@
 
 .container .wrapper {
   display: grid;
+  max-width: 24rem;
   align-content: center;
   height: 95vh;
 }
@@ -43,6 +45,7 @@
 .container .text {
   text-align: center;
   margin-top: 30px;
+  max-width: 24rem;
 }
 
 .container h1 {
