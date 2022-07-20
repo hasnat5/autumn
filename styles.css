@@ -123,13 +123,9 @@ footer p a {
   cursor: none;
 }
 
-@media (min-width: 720px) {
-	 .container h1 {
-    font-family: "mars";
-    font-size: 3rem; /* 36px */
-    line-height: 1rem; /* 40px */
-    color: #ffffff;
-    padding-bottom: 15px;
+@media (max-width: 500px) {
+	 .container {
+    max-width: 24rem;
   }
 	  
 }
