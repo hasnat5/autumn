@@ -48,6 +48,7 @@
   text-align: center;
   margin-top: 30px;
   background-color: #a700ff;
+  max-height: 100%;
 }
 
 .container h1 {
