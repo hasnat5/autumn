@@ -36,7 +36,6 @@
 
 .container .wrapper {
   display: grid;
-  background-color: #6d00ff;
   align-content: center;
   height: 95vh;
 }
@@ -44,7 +43,6 @@
 .container .text {
   text-align: center;
   margin-top: 30px;
-  max-width: 24rem;
 }
 
 .container h1 {
