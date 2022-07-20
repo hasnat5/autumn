@@ -27,7 +27,6 @@
 .container {
   position: relative;
   display: grid;
-  max-width: 24rem;
   height: 100vh;
   margin-left: auto;
   margin-right: auto;
@@ -39,6 +38,7 @@
   display: grid;
   /*background-color: #6d00ff;*/
   align-content: center;
+  max-width: 24rem;
   height: 95vh;
 }
 
@@ -129,6 +129,5 @@ footer p a {
 @media (min-width: 768px) {
   .container {
     width: 100%;
-    min-width : 28rem;
   }
 }
