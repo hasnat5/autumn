@@ -128,11 +128,11 @@ footer p a {
 
 @media (max-width: 500px) {
 	 .container {
-    max-width: 24rem;
+    min-width: 100%;
   }
   
   .container .wrapper {
-    max-width: 24rem;
+    min-width: 100rem;
   }
 	  
 }
