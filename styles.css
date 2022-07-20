@@ -127,5 +127,9 @@ footer p a {
 	 .container {
     max-width: 24rem;
   }
+  
+  .container .wrapper {
+    max-width: 24rem;
+  }
 	  
 }
