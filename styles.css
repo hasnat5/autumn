@@ -126,7 +126,7 @@ footer p a {
 
 
 @media (min-width: 768px) {
-  .container {
+  .container .wrapper {
     width: 100%;
   }
 }
