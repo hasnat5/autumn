@@ -27,7 +27,7 @@
 .container {
   position: relative;
   display: grid;
-  min-width: 24rem;
+  grid-template-columns: repeat(1, minmax(0, 1fr));
   height: 100vh;
   margin-left: auto;
   margin-right: auto;
@@ -37,7 +37,6 @@
 
 .container .wrapper {
   display: grid;
-  width: 100%;
   align-content: center;
   height: 95vh;
 }
@@ -45,7 +44,6 @@
 .container .text {
   text-align: center;
   margin-top: 30px;
-  min-width: 24rem;
 }
 
 .container h1 {
