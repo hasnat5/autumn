@@ -124,3 +124,10 @@ footer p a {
   color: #f99dee;
   cursor: none;
 }
+
+
+@media (min-width: 768px) {
+  .container {
+    min-width : 28rem;
+  }
+}
