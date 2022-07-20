@@ -41,6 +41,7 @@
   display: grid;
   align-content: center;
   height: 95vh;
+  background-color: #eda220;
 }
 
 .container .text {
