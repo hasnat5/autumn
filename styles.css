@@ -29,6 +29,7 @@
   display: grid;
   grid-template-columns: repeat(1, minmax(0, 1fr));
   max-width: 24rem;
+  background-color: #69ec5e;
   height: 100vh;
   margin-left: auto;
   margin-right: auto;
